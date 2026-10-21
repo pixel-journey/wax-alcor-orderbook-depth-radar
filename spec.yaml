@@ -1,0 +1,23 @@
+name: wax-alcor-orderbook-depth-radar
+trust_label: educational-reference
+version: 0.1.0
+purpose: >
+  Sum size below and above a mid and report the imbalance in bps.
+invariants:
+  - src/depth.ts performs no network or wallet calls.
+  - Requests in src/usecases.ts set executed to false.
+  - No use case contains a transaction.
+do_not:
+  - Do not add a live Alcor client and keep this trust label.
+  - Do not describe a fixture as a mainnet response.
+entrypoints:
+  logic: src/depth.ts
+  tests: src/depth.test.ts
+  demo: src/Demo.tsx
+  queries: src/usecases.ts
+commands:
+  test: npm test
+  demo: npm run dev
+live_data:
+  status: untested
+  notes: No endpoint was called.

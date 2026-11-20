@@ -1,7 +1,7 @@
 # Size on each side of a mid
 
 **Trust label:** `educational-reference`  
-**Catalog:** [wax-ecosystem-blueprint-catalog](https://github.com/pixel-journey/wax-ecosystem-blueprint-catalog)
+**Catalog:** `wax-ecosystem-blueprint-catalog` (private index; not this public course)
 
 Split a fixture book around a mid price. Tiers are labels, not Alcor pools.
 
@@ -16,7 +16,7 @@ The August 2026 README described live Alcor depth, a vesting NFT, or a forecast.
 | `src/usecases.ts` | HTTP requests, built and not sent. No transaction is invented |
 | `src/Demo.tsx` | Offline page |
 
-`npm test` runs the rules. `npm run dev` opens the page.
+The course is [EDUCATION.md](EDUCATION.md). `npm test` runs the rules. `npm run dev` opens the page.
 
 ## Queries and unsigned transactions
 
